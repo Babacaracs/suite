@@ -1,5 +1,5 @@
 $('.btnpop').click(function(){
-  var w=window.open('index.php?entryPoint=customEntryPoint&id1=id','pop1', 'top=100,left=400,resizable=no, location=no, width=600, height=500, menubar=no, status=no, scrollbars=no, menubar=no');
+  var w=window.open('index.php?entryPoint=customEntryPoint&id1=idtest','pop1', 'top=100,left=400,resizable=no, location=no, width=600, height=500, menubar=no, status=no, scrollbars=no, menubar=no');
        w.document.close();
         w.focus();
     });

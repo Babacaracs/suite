@@ -34,7 +34,7 @@ array (
           2 => 'DELETE',
           3 => 'FIND_DUPLICATES',
           4 => array (
-              'customCode' => '<input type="button" class="button btnpop" value="test">',
+              'customCode' => '<a href="index.php?entryPoint=customEntryPoint&id1='.$id1.'"  class="button"><input type="input" class="button " value="test"></a>',
           ),
           'AOS_GENLET' => 
           array (

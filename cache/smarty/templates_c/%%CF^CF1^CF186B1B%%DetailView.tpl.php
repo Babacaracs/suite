@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.31, created on 2019-04-12 10:20:44
+<?php /* Smarty version 2.6.31, created on 2019-04-12 12:14:22
          compiled from cache/themes/SuiteP/modules/Accounts/DetailView.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_include', 'cache/themes/SuiteP/modules/Accounts/DetailView.tpl', 43, false),array('function', 'sugar_translate', 'cache/themes/SuiteP/modules/Accounts/DetailView.tpl', 52, false),array('function', 'counter', 'cache/themes/SuiteP/modules/Accounts/DetailView.tpl', 137, false),array('function', 'sugar_phone', 'cache/themes/SuiteP/modules/Accounts/DetailView.tpl', 176, false),array('function', 'sugar_ajax_url', 'cache/themes/SuiteP/modules/Accounts/DetailView.tpl', 658, false),array('modifier', 'strip_semicolon', 'cache/themes/SuiteP/modules/Accounts/DetailView.tpl', 130, false),array('modifier', 'substr', 'cache/themes/SuiteP/modules/Accounts/DetailView.tpl', 213, false),array('modifier', 'to_url', 'cache/themes/SuiteP/modules/Accounts/DetailView.tpl', 215, false),array('modifier', 'escape', 'cache/themes/SuiteP/modules/Accounts/DetailView.tpl', 323, false),array('modifier', 'url2html', 'cache/themes/SuiteP/modules/Accounts/DetailView.tpl', 323, false),array('modifier', 'nl2br', 'cache/themes/SuiteP/modules/Accounts/DetailView.tpl', 323, false),array('modifier', 'strip_tags', 'cache/themes/SuiteP/modules/Accounts/DetailView.tpl', 334, false),)), $this); ?>
@@ -55,7 +55,7 @@ smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_inclu
 " onclick="var _form = document.getElementById('formDetailView');_form.return_module.value='Accounts'; _form.return_action.value='DetailView'; _form.return_id.value='<?php echo $this->_tpl_vars['fields']['id']['value']; ?>
 '; _form.action.value='sendConfirmOptInEmail'; _form.module.value='Accounts'; _form.module_tab.value='Accounts';_form.submit();" name="send_confirm_opt_in_email" disabled="1" type="button" value="<?php echo $this->_tpl_vars['APP']['LBL_SEND_CONFIRM_OPT_IN_EMAIL']; ?>
 "/>
-<input type="button" class="button btnpop" value="test"/>
+<a href="index.php?entryPoint=customEntryPoint&id1=15406961-34c5-23ec-1b47-5c7e47c7e4d8" class="button"><input type="input" class="button " value="test"/></a>
 <input type="button" class="button" onClick="showPopup();" value="<?php echo $this->_tpl_vars['APP']['LBL_PRINT_AS_PDF']; ?>
 "/>
 <?php if ($this->_tpl_vars['bean']->aclAccess('detail')): ?><?php if (! empty ( $this->_tpl_vars['fields']['id']['value'] ) && $this->_tpl_vars['isAuditEnabled']): ?><input id="btn_view_change_log" title="<?php echo $this->_tpl_vars['APP']['LNK_VIEW_CHANGE_LOG']; ?>
@@ -155,7 +155,7 @@ smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_inclu
 " onclick="var _form = document.getElementById('formDetailView');_form.return_module.value='Accounts'; _form.return_action.value='DetailView'; _form.return_id.value='<?php echo $this->_tpl_vars['fields']['id']['value']; ?>
 '; _form.action.value='sendConfirmOptInEmail'; _form.module.value='Accounts'; _form.module_tab.value='Accounts';_form.submit();" name="send_confirm_opt_in_email" disabled="1" type="button" value="<?php echo $this->_tpl_vars['APP']['LBL_SEND_CONFIRM_OPT_IN_EMAIL']; ?>
 "/></li>
-<li><input type="button" class="button btnpop" value="test"/></li>
+<li><a href="index.php?entryPoint=customEntryPoint&id1=15406961-34c5-23ec-1b47-5c7e47c7e4d8" class="button"><input type="input" class="button " value="test"/></a></li>
 <li><input type="button" class="button" onClick="showPopup();" value="<?php echo $this->_tpl_vars['APP']['LBL_PRINT_AS_PDF']; ?>
 "/></li>
 <li><?php if ($this->_tpl_vars['bean']->aclAccess('detail')): ?><?php if (! empty ( $this->_tpl_vars['fields']['id']['value'] ) && $this->_tpl_vars['isAuditEnabled']): ?><input id="btn_view_change_log" title="<?php echo $this->_tpl_vars['APP']['LNK_VIEW_CHANGE_LOG']; ?>
