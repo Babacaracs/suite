@@ -1,0 +1,941 @@
+client headers:array (
+  'Host' => '127.0.0.1',
+  'Connection' => 'keep-alive',
+  'Content-Length' => '62',
+  'Origin' => 'http://127.0.0.1',
+  'X-Requested-With' => 'XMLHttpRequest',
+  'User-Agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'Content-Type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'Accept' => '*/*',
+  'Referer' => 'http://127.0.0.1/suitecrm/service/example/example.html',
+  'Accept-Encoding' => 'gzip, deflate, br',
+  'Accept-Language' => 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7',
+  'Cookie' => 'sugar_user_theme=SuiteP; EmailGridWidths=0=10&1=10&2=150&3=250&4=175&5=125; Accounts_divs=Accounts_contacts_v%3Dfalse%23undefined%3D%23Accounts_history_v%3Dtrue%23Accounts_activities_v%3Dtrue%23Accounts_accounts_v%3Dtrue%23Accounts_account_aos_contracts_v%3Dfalse%23Accounts_cases_v%3Dtrue%23Accounts_documents_v%3Dtrue%23; Contacts_divs=Contacts_securitygroups_v%3Dtrue%23undefined%3D%23Contacts_contact_aos_contracts_v%3Dtrue%23Contacts_bugs_v%3Dtrue%23Contacts_documents_v%3Dtrue%23Contacts_activities_v%3Dtrue%23; ck_login_id_20=1; ck_login_language_20=en_us; PHPSESSID=a6dgrha5sandbv64k80g5ou3k0',
+)
+starting curl request
+method=md5&input_type=json&response_type=json&rest_data="will"
+finished curl request
+response:'HTTP/1.1 404 Not Found
+Date: Thu, 07 Mar 2019 12:18:24 GMT
+Server: Apache/2.4.37 (Win64) PHP/7.2.14
+Content-Length: 302
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL /service/v2/rest.php was not found on this server.</p>
+<hr>
+<address>Apache/2.4.37 (Win64) PHP/7.2.14 Server at localhost Port 80</address>
+</body></html>
+'
+setting headers
+sending body
+done
+client headers:array (
+  'Host' => '127.0.0.1',
+  'Connection' => 'keep-alive',
+  'Content-Length' => '63',
+  'Origin' => 'http://127.0.0.1',
+  'X-Requested-With' => 'XMLHttpRequest',
+  'User-Agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'Content-Type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'Accept' => '*/*',
+  'Referer' => 'http://127.0.0.1/suitecrm/service/example/example.html',
+  'Accept-Encoding' => 'gzip, deflate, br',
+  'Accept-Language' => 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7',
+  'Cookie' => 'sugar_user_theme=SuiteP; EmailGridWidths=0=10&1=10&2=150&3=250&4=175&5=125; Accounts_divs=Accounts_contacts_v%3Dfalse%23undefined%3D%23Accounts_history_v%3Dtrue%23Accounts_activities_v%3Dtrue%23Accounts_accounts_v%3Dtrue%23Accounts_account_aos_contracts_v%3Dfalse%23Accounts_cases_v%3Dtrue%23Accounts_documents_v%3Dtrue%23; Contacts_divs=Contacts_securitygroups_v%3Dtrue%23undefined%3D%23Contacts_contact_aos_contracts_v%3Dtrue%23Contacts_bugs_v%3Dtrue%23Contacts_documents_v%3Dtrue%23Contacts_activities_v%3Dtrue%23; ck_login_id_20=1; ck_login_language_20=en_us; PHPSESSID=a6dgrha5sandbv64k80g5ou3k0',
+)
+starting curl request
+method=md5&input_type=json&response_type=json&rest_data="admin"
+finished curl request
+response:'HTTP/1.1 404 Not Found
+Date: Thu, 07 Mar 2019 12:18:32 GMT
+Server: Apache/2.4.37 (Win64) PHP/7.2.14
+Content-Length: 302
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL /service/v2/rest.php was not found on this server.</p>
+<hr>
+<address>Apache/2.4.37 (Win64) PHP/7.2.14 Server at localhost Port 80</address>
+</body></html>
+'
+setting headers
+sending body
+done
+client headers:array (
+  'Host' => '127.0.0.1',
+  'Connection' => 'keep-alive',
+  'Content-Length' => '63',
+  'Origin' => 'http://127.0.0.1',
+  'X-Requested-With' => 'XMLHttpRequest',
+  'User-Agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'Content-Type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'Accept' => '*/*',
+  'Referer' => 'http://127.0.0.1/suitecrm/service/example/example.html',
+  'Accept-Encoding' => 'gzip, deflate, br',
+  'Accept-Language' => 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7',
+  'Cookie' => 'sugar_user_theme=SuiteP; EmailGridWidths=0=10&1=10&2=150&3=250&4=175&5=125; Accounts_divs=Accounts_contacts_v%3Dfalse%23undefined%3D%23Accounts_history_v%3Dtrue%23Accounts_activities_v%3Dtrue%23Accounts_accounts_v%3Dtrue%23Accounts_account_aos_contracts_v%3Dfalse%23Accounts_cases_v%3Dtrue%23Accounts_documents_v%3Dtrue%23; Contacts_divs=Contacts_securitygroups_v%3Dtrue%23undefined%3D%23Contacts_contact_aos_contracts_v%3Dtrue%23Contacts_bugs_v%3Dtrue%23Contacts_documents_v%3Dtrue%23Contacts_activities_v%3Dtrue%23; ck_login_id_20=1; ck_login_language_20=en_us; PHPSESSID=a6dgrha5sandbv64k80g5ou3k0',
+)
+starting curl request
+method=md5&input_type=json&response_type=json&rest_data="admin"
+finished curl request
+response:'HTTP/1.1 404 Not Found
+Date: Thu, 07 Mar 2019 12:18:33 GMT
+Server: Apache/2.4.37 (Win64) PHP/7.2.14
+Content-Length: 302
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL /service/v2/rest.php was not found on this server.</p>
+<hr>
+<address>Apache/2.4.37 (Win64) PHP/7.2.14 Server at localhost Port 80</address>
+</body></html>
+'
+setting headers
+sending body
+done
+client headers:array (
+  'Host' => '127.0.0.1',
+  'Connection' => 'keep-alive',
+  'Content-Length' => '63',
+  'Origin' => 'http://127.0.0.1',
+  'X-Requested-With' => 'XMLHttpRequest',
+  'User-Agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'Content-Type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'Accept' => '*/*',
+  'Referer' => 'http://127.0.0.1/suitecrm/service/example/example.html',
+  'Accept-Encoding' => 'gzip, deflate, br',
+  'Accept-Language' => 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7',
+  'Cookie' => 'sugar_user_theme=SuiteP; EmailGridWidths=0=10&1=10&2=150&3=250&4=175&5=125; Accounts_divs=Accounts_contacts_v%3Dfalse%23undefined%3D%23Accounts_history_v%3Dtrue%23Accounts_activities_v%3Dtrue%23Accounts_accounts_v%3Dtrue%23Accounts_account_aos_contracts_v%3Dfalse%23Accounts_cases_v%3Dtrue%23Accounts_documents_v%3Dtrue%23; Contacts_divs=Contacts_securitygroups_v%3Dtrue%23undefined%3D%23Contacts_contact_aos_contracts_v%3Dtrue%23Contacts_bugs_v%3Dtrue%23Contacts_documents_v%3Dtrue%23Contacts_activities_v%3Dtrue%23; ck_login_id_20=1; ck_login_language_20=en_us; PHPSESSID=a6dgrha5sandbv64k80g5ou3k0',
+)
+starting curl request
+method=md5&input_type=json&response_type=json&rest_data="admin"
+finished curl request
+response:'HTTP/1.1 404 Not Found
+Date: Thu, 07 Mar 2019 12:18:33 GMT
+Server: Apache/2.4.37 (Win64) PHP/7.2.14
+Content-Length: 302
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL /service/v2/rest.php was not found on this server.</p>
+<hr>
+<address>Apache/2.4.37 (Win64) PHP/7.2.14 Server at localhost Port 80</address>
+</body></html>
+'
+setting headers
+sending body
+done
+client headers:array (
+  'Host' => '127.0.0.1',
+  'Connection' => 'keep-alive',
+  'Content-Length' => '63',
+  'Origin' => 'http://127.0.0.1',
+  'X-Requested-With' => 'XMLHttpRequest',
+  'User-Agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'Content-Type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'Accept' => '*/*',
+  'Referer' => 'http://127.0.0.1/suitecrm/service/example/example.html',
+  'Accept-Encoding' => 'gzip, deflate, br',
+  'Accept-Language' => 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7',
+  'Cookie' => 'sugar_user_theme=SuiteP; EmailGridWidths=0=10&1=10&2=150&3=250&4=175&5=125; Accounts_divs=Accounts_contacts_v%3Dfalse%23undefined%3D%23Accounts_history_v%3Dtrue%23Accounts_activities_v%3Dtrue%23Accounts_accounts_v%3Dtrue%23Accounts_account_aos_contracts_v%3Dfalse%23Accounts_cases_v%3Dtrue%23Accounts_documents_v%3Dtrue%23; Contacts_divs=Contacts_securitygroups_v%3Dtrue%23undefined%3D%23Contacts_contact_aos_contracts_v%3Dtrue%23Contacts_bugs_v%3Dtrue%23Contacts_documents_v%3Dtrue%23Contacts_activities_v%3Dtrue%23; ck_login_id_20=1; ck_login_language_20=en_us; PHPSESSID=a6dgrha5sandbv64k80g5ou3k0',
+)
+starting curl request
+method=md5&input_type=json&response_type=json&rest_data="admin"
+finished curl request
+response:'HTTP/1.1 404 Not Found
+Date: Thu, 07 Mar 2019 12:18:33 GMT
+Server: Apache/2.4.37 (Win64) PHP/7.2.14
+Content-Length: 302
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL /service/v2/rest.php was not found on this server.</p>
+<hr>
+<address>Apache/2.4.37 (Win64) PHP/7.2.14 Server at localhost Port 80</address>
+</body></html>
+'
+setting headers
+sending body
+done
+client headers:array (
+  'Host' => '127.0.0.1',
+  'Connection' => 'keep-alive',
+  'Content-Length' => '63',
+  'Origin' => 'http://127.0.0.1',
+  'X-Requested-With' => 'XMLHttpRequest',
+  'User-Agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'Content-Type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'Accept' => '*/*',
+  'Referer' => 'http://127.0.0.1/suitecrm/service/example/example.html',
+  'Accept-Encoding' => 'gzip, deflate, br',
+  'Accept-Language' => 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7',
+  'Cookie' => 'sugar_user_theme=SuiteP; EmailGridWidths=0=10&1=10&2=150&3=250&4=175&5=125; Accounts_divs=Accounts_contacts_v%3Dfalse%23undefined%3D%23Accounts_history_v%3Dtrue%23Accounts_activities_v%3Dtrue%23Accounts_accounts_v%3Dtrue%23Accounts_account_aos_contracts_v%3Dfalse%23Accounts_cases_v%3Dtrue%23Accounts_documents_v%3Dtrue%23; Contacts_divs=Contacts_securitygroups_v%3Dtrue%23undefined%3D%23Contacts_contact_aos_contracts_v%3Dtrue%23Contacts_bugs_v%3Dtrue%23Contacts_documents_v%3Dtrue%23Contacts_activities_v%3Dtrue%23; ck_login_id_20=1; ck_login_language_20=en_us; PHPSESSID=a6dgrha5sandbv64k80g5ou3k0',
+)
+starting curl request
+method=md5&input_type=json&response_type=json&rest_data="admin"
+finished curl request
+response:'HTTP/1.1 404 Not Found
+Date: Thu, 07 Mar 2019 12:18:34 GMT
+Server: Apache/2.4.37 (Win64) PHP/7.2.14
+Content-Length: 302
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL /service/v2/rest.php was not found on this server.</p>
+<hr>
+<address>Apache/2.4.37 (Win64) PHP/7.2.14 Server at localhost Port 80</address>
+</body></html>
+'
+setting headers
+sending body
+done
+client headers:array (
+  'Host' => '127.0.0.1',
+  'Connection' => 'keep-alive',
+  'Content-Length' => '63',
+  'Pragma' => 'no-cache',
+  'Cache-Control' => 'no-cache',
+  'Origin' => 'http://127.0.0.1',
+  'X-Requested-With' => 'XMLHttpRequest',
+  'User-Agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'Content-Type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'Accept' => '*/*',
+  'Referer' => 'http://127.0.0.1/suitecrm/service/example/example.html',
+  'Accept-Encoding' => 'gzip, deflate, br',
+  'Accept-Language' => 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7',
+  'Cookie' => 'sugar_user_theme=SuiteP; EmailGridWidths=0=10&1=10&2=150&3=250&4=175&5=125; Accounts_divs=Accounts_contacts_v%3Dfalse%23undefined%3D%23Accounts_history_v%3Dtrue%23Accounts_activities_v%3Dtrue%23Accounts_accounts_v%3Dtrue%23Accounts_account_aos_contracts_v%3Dfalse%23Accounts_cases_v%3Dtrue%23Accounts_documents_v%3Dtrue%23; Contacts_divs=Contacts_securitygroups_v%3Dtrue%23undefined%3D%23Contacts_contact_aos_contracts_v%3Dtrue%23Contacts_bugs_v%3Dtrue%23Contacts_documents_v%3Dtrue%23Contacts_activities_v%3Dtrue%23; ck_login_id_20=1; ck_login_language_20=en_us; PHPSESSID=a6dgrha5sandbv64k80g5ou3k0',
+)
+starting curl request
+method=md5&input_type=json&response_type=json&rest_data="admin"
+finished curl request
+response:'HTTP/1.1 404 Not Found
+Date: Thu, 07 Mar 2019 12:18:39 GMT
+Server: Apache/2.4.37 (Win64) PHP/7.2.14
+Content-Length: 302
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL /service/v2/rest.php was not found on this server.</p>
+<hr>
+<address>Apache/2.4.37 (Win64) PHP/7.2.14 Server at localhost Port 80</address>
+</body></html>
+'
+setting headers
+sending body
+done
+client headers:array (
+  'Host' => '127.0.0.1',
+  'Connection' => 'keep-alive',
+  'Content-Length' => '63',
+  'Pragma' => 'no-cache',
+  'Cache-Control' => 'no-cache',
+  'Origin' => 'http://127.0.0.1',
+  'X-Requested-With' => 'XMLHttpRequest',
+  'User-Agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'Content-Type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'Accept' => '*/*',
+  'Referer' => 'http://127.0.0.1/suitecrm/service/example/example.html',
+  'Accept-Encoding' => 'gzip, deflate, br',
+  'Accept-Language' => 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7',
+  'Cookie' => 'sugar_user_theme=SuiteP; EmailGridWidths=0=10&1=10&2=150&3=250&4=175&5=125; Accounts_divs=Accounts_contacts_v%3Dfalse%23undefined%3D%23Accounts_history_v%3Dtrue%23Accounts_activities_v%3Dtrue%23Accounts_accounts_v%3Dtrue%23Accounts_account_aos_contracts_v%3Dfalse%23Accounts_cases_v%3Dtrue%23Accounts_documents_v%3Dtrue%23; Contacts_divs=Contacts_securitygroups_v%3Dtrue%23undefined%3D%23Contacts_contact_aos_contracts_v%3Dtrue%23Contacts_bugs_v%3Dtrue%23Contacts_documents_v%3Dtrue%23Contacts_activities_v%3Dtrue%23; ck_login_id_20=1; ck_login_language_20=en_us; PHPSESSID=a6dgrha5sandbv64k80g5ou3k0',
+)
+starting curl request
+method=md5&input_type=json&response_type=json&rest_data="admin"
+finished curl request
+response:'HTTP/1.1 404 Not Found
+Date: Thu, 07 Mar 2019 12:18:56 GMT
+Server: Apache/2.4.37 (Win64) PHP/7.2.14
+Content-Length: 302
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL /service/v2/rest.php was not found on this server.</p>
+<hr>
+<address>Apache/2.4.37 (Win64) PHP/7.2.14 Server at localhost Port 80</address>
+</body></html>
+'
+setting headers
+sending body
+done
+client headers:array (
+  'Host' => '127.0.0.1',
+  'Connection' => 'keep-alive',
+  'Content-Length' => '62',
+  'Pragma' => 'no-cache',
+  'Cache-Control' => 'no-cache',
+  'Origin' => 'http://127.0.0.1',
+  'X-Requested-With' => 'XMLHttpRequest',
+  'User-Agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'Content-Type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'Accept' => '*/*',
+  'Referer' => 'http://127.0.0.1/suitecrm/service/example/example.html',
+  'Accept-Encoding' => 'gzip, deflate, br',
+  'Accept-Language' => 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7',
+  'Cookie' => 'sugar_user_theme=SuiteP; EmailGridWidths=0=10&1=10&2=150&3=250&4=175&5=125; Accounts_divs=Accounts_contacts_v%3Dfalse%23undefined%3D%23Accounts_history_v%3Dtrue%23Accounts_activities_v%3Dtrue%23Accounts_accounts_v%3Dtrue%23Accounts_account_aos_contracts_v%3Dfalse%23Accounts_cases_v%3Dtrue%23Accounts_documents_v%3Dtrue%23; Contacts_divs=Contacts_securitygroups_v%3Dtrue%23undefined%3D%23Contacts_contact_aos_contracts_v%3Dtrue%23Contacts_bugs_v%3Dtrue%23Contacts_documents_v%3Dtrue%23Contacts_activities_v%3Dtrue%23; ck_login_id_20=1; ck_login_language_20=en_us; PHPSESSID=a6dgrha5sandbv64k80g5ou3k0',
+)
+starting curl request
+method=md5&input_type=json&response_type=json&rest_data="will"
+finished curl request
+response:'HTTP/1.1 404 Not Found
+Date: Thu, 07 Mar 2019 12:19:16 GMT
+Server: Apache/2.4.37 (Win64) PHP/7.2.14
+Content-Length: 302
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL /service/v2/rest.php was not found on this server.</p>
+<hr>
+<address>Apache/2.4.37 (Win64) PHP/7.2.14 Server at localhost Port 80</address>
+</body></html>
+'
+setting headers
+sending body
+done
+client headers:array (
+  'Host' => '127.0.0.1',
+  'Connection' => 'keep-alive',
+  'Content-Length' => '62',
+  'Origin' => 'http://127.0.0.1',
+  'X-Requested-With' => 'XMLHttpRequest',
+  'User-Agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'Content-Type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'Accept' => '*/*',
+  'Referer' => 'http://127.0.0.1/suitecrm/service/example/example.html',
+  'Accept-Encoding' => 'gzip, deflate, br',
+  'Accept-Language' => 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7',
+  'Cookie' => 'sugar_user_theme=SuiteP; EmailGridWidths=0=10&1=10&2=150&3=250&4=175&5=125; Accounts_divs=Accounts_contacts_v%3Dtrue%23undefined%3D%23Accounts_history_v%3Dtrue%23Accounts_activities_v%3Dtrue%23Accounts_accounts_v%3Dtrue%23Accounts_account_aos_contracts_v%3Dfalse%23Accounts_cases_v%3Dtrue%23Accounts_documents_v%3Dtrue%23Accounts_leads_v%3Dtrue%23Accounts_campaigns_v%3Dtrue%23Accounts_opportunities_v%3Dtrue%23; tut1_tut1_divs=tut1_tut1_tut1_tut1_contacts_1_v%3Dtrue%23undefined%3D%23; Contacts_divs=Contacts_securitygroups_v%3Dtrue%23undefined%3D%23Contacts_contact_aos_contracts_v%3Dtrue%23Contacts_bugs_v%3Dtrue%23Contacts_documents_v%3Dtrue%23Contacts_activities_v%3Dtrue%23Contacts_contacts_v%3Dfalse%23; ck_login_id_20=1; ck_login_language_20=en_us; joomla_remember_me_95d1b6fd9be1e421cf27f15322a0864a=JfqCNIOdFJ4e5Y6e.AH0REn1IayKiZnxpKqK3; PPA_ID=691d2lrstc01f2obqd3a4fito0; webfx-tree-cookie-persistence=wfxt-18+wfxt-16+wfxt-14+wfxt-4+wfxt-6+wfxt-8+wfxt-10+wfxt-12+wfxt-42+wfxt-30; PHPSESSID=1gs6h3lp5p1ok3medavidgv8ti',
+)
+starting curl request
+method=md5&input_type=json&response_type=json&rest_data="will"
+finished curl request
+response:'HTTP/1.1 404 Not Found
+Date: Tue, 19 Mar 2019 14:26:31 GMT
+Server: Apache/2.4.37 (Win64) PHP/7.2.14
+Content-Length: 302
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL /service/v2/rest.php was not found on this server.</p>
+<hr>
+<address>Apache/2.4.37 (Win64) PHP/7.2.14 Server at localhost Port 80</address>
+</body></html>
+'
+setting headers
+sending body
+done
+client headers:array (
+  'Host' => '127.0.0.1',
+  'Connection' => 'keep-alive',
+  'Content-Length' => '63',
+  'Origin' => 'http://127.0.0.1',
+  'X-Requested-With' => 'XMLHttpRequest',
+  'User-Agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'Content-Type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'Accept' => '*/*',
+  'Referer' => 'http://127.0.0.1/suitecrm/service/example/example.html',
+  'Accept-Encoding' => 'gzip, deflate, br',
+  'Accept-Language' => 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7',
+  'Cookie' => 'sugar_user_theme=SuiteP; EmailGridWidths=0=10&1=10&2=150&3=250&4=175&5=125; Accounts_divs=Accounts_contacts_v%3Dtrue%23undefined%3D%23Accounts_history_v%3Dtrue%23Accounts_activities_v%3Dtrue%23Accounts_accounts_v%3Dtrue%23Accounts_account_aos_contracts_v%3Dfalse%23Accounts_cases_v%3Dtrue%23Accounts_documents_v%3Dtrue%23Accounts_leads_v%3Dtrue%23Accounts_campaigns_v%3Dtrue%23Accounts_opportunities_v%3Dtrue%23; tut1_tut1_divs=tut1_tut1_tut1_tut1_contacts_1_v%3Dtrue%23undefined%3D%23; Contacts_divs=Contacts_securitygroups_v%3Dtrue%23undefined%3D%23Contacts_contact_aos_contracts_v%3Dtrue%23Contacts_bugs_v%3Dtrue%23Contacts_documents_v%3Dtrue%23Contacts_activities_v%3Dtrue%23Contacts_contacts_v%3Dfalse%23; ck_login_id_20=1; ck_login_language_20=en_us; joomla_remember_me_95d1b6fd9be1e421cf27f15322a0864a=JfqCNIOdFJ4e5Y6e.AH0REn1IayKiZnxpKqK3; PPA_ID=691d2lrstc01f2obqd3a4fito0; webfx-tree-cookie-persistence=wfxt-18+wfxt-16+wfxt-14+wfxt-4+wfxt-6+wfxt-8+wfxt-10+wfxt-12+wfxt-42+wfxt-30; PHPSESSID=1gs6h3lp5p1ok3medavidgv8ti',
+)
+starting curl request
+method=md5&input_type=json&response_type=json&rest_data="admin"
+finished curl request
+response:'HTTP/1.1 404 Not Found
+Date: Tue, 19 Mar 2019 14:26:39 GMT
+Server: Apache/2.4.37 (Win64) PHP/7.2.14
+Content-Length: 302
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL /service/v2/rest.php was not found on this server.</p>
+<hr>
+<address>Apache/2.4.37 (Win64) PHP/7.2.14 Server at localhost Port 80</address>
+</body></html>
+'
+setting headers
+sending body
+done
+client headers:array (
+  'Host' => '127.0.0.1',
+  'Connection' => 'keep-alive',
+  'Content-Length' => '63',
+  'Origin' => 'http://127.0.0.1',
+  'X-Requested-With' => 'XMLHttpRequest',
+  'User-Agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'Content-Type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'Accept' => '*/*',
+  'Referer' => 'http://127.0.0.1/suitecrm/service/example/example.html',
+  'Accept-Encoding' => 'gzip, deflate, br',
+  'Accept-Language' => 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7',
+  'Cookie' => 'sugar_user_theme=SuiteP; EmailGridWidths=0=10&1=10&2=150&3=250&4=175&5=125; Accounts_divs=Accounts_contacts_v%3Dtrue%23undefined%3D%23Accounts_history_v%3Dtrue%23Accounts_activities_v%3Dtrue%23Accounts_accounts_v%3Dtrue%23Accounts_account_aos_contracts_v%3Dfalse%23Accounts_cases_v%3Dtrue%23Accounts_documents_v%3Dtrue%23Accounts_leads_v%3Dtrue%23Accounts_campaigns_v%3Dtrue%23Accounts_opportunities_v%3Dtrue%23; tut1_tut1_divs=tut1_tut1_tut1_tut1_contacts_1_v%3Dtrue%23undefined%3D%23; Contacts_divs=Contacts_securitygroups_v%3Dtrue%23undefined%3D%23Contacts_contact_aos_contracts_v%3Dtrue%23Contacts_bugs_v%3Dtrue%23Contacts_documents_v%3Dtrue%23Contacts_activities_v%3Dtrue%23Contacts_contacts_v%3Dfalse%23; ck_login_id_20=1; ck_login_language_20=en_us; joomla_remember_me_95d1b6fd9be1e421cf27f15322a0864a=JfqCNIOdFJ4e5Y6e.AH0REn1IayKiZnxpKqK3; PPA_ID=691d2lrstc01f2obqd3a4fito0; webfx-tree-cookie-persistence=wfxt-18+wfxt-16+wfxt-14+wfxt-4+wfxt-6+wfxt-8+wfxt-10+wfxt-12+wfxt-42+wfxt-30; PHPSESSID=1gs6h3lp5p1ok3medavidgv8ti',
+)
+starting curl request
+method=md5&input_type=json&response_type=json&rest_data="admin"
+finished curl request
+response:'HTTP/1.1 404 Not Found
+Date: Tue, 19 Mar 2019 14:26:40 GMT
+Server: Apache/2.4.37 (Win64) PHP/7.2.14
+Content-Length: 302
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL /service/v2/rest.php was not found on this server.</p>
+<hr>
+<address>Apache/2.4.37 (Win64) PHP/7.2.14 Server at localhost Port 80</address>
+</body></html>
+'
+setting headers
+sending body
+done
+client headers:array (
+  'Host' => '127.0.0.1',
+  'Connection' => 'keep-alive',
+  'Content-Length' => '63',
+  'Origin' => 'http://127.0.0.1',
+  'X-Requested-With' => 'XMLHttpRequest',
+  'User-Agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'Content-Type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'Accept' => '*/*',
+  'Referer' => 'http://127.0.0.1/suitecrm/service/example/example.html',
+  'Accept-Encoding' => 'gzip, deflate, br',
+  'Accept-Language' => 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7',
+  'Cookie' => 'sugar_user_theme=SuiteP; EmailGridWidths=0=10&1=10&2=150&3=250&4=175&5=125; Accounts_divs=Accounts_contacts_v%3Dtrue%23undefined%3D%23Accounts_history_v%3Dtrue%23Accounts_activities_v%3Dtrue%23Accounts_accounts_v%3Dtrue%23Accounts_account_aos_contracts_v%3Dfalse%23Accounts_cases_v%3Dtrue%23Accounts_documents_v%3Dtrue%23Accounts_leads_v%3Dtrue%23Accounts_campaigns_v%3Dtrue%23Accounts_opportunities_v%3Dtrue%23; tut1_tut1_divs=tut1_tut1_tut1_tut1_contacts_1_v%3Dtrue%23undefined%3D%23; Contacts_divs=Contacts_securitygroups_v%3Dtrue%23undefined%3D%23Contacts_contact_aos_contracts_v%3Dtrue%23Contacts_bugs_v%3Dtrue%23Contacts_documents_v%3Dtrue%23Contacts_activities_v%3Dtrue%23Contacts_contacts_v%3Dfalse%23; ck_login_id_20=1; ck_login_language_20=en_us; joomla_remember_me_95d1b6fd9be1e421cf27f15322a0864a=JfqCNIOdFJ4e5Y6e.AH0REn1IayKiZnxpKqK3; PPA_ID=691d2lrstc01f2obqd3a4fito0; webfx-tree-cookie-persistence=wfxt-18+wfxt-16+wfxt-14+wfxt-4+wfxt-6+wfxt-8+wfxt-10+wfxt-12+wfxt-42+wfxt-30; PHPSESSID=1gs6h3lp5p1ok3medavidgv8ti',
+)
+starting curl request
+method=md5&input_type=json&response_type=json&rest_data="admin"
+finished curl request
+response:'HTTP/1.1 404 Not Found
+Date: Tue, 19 Mar 2019 14:26:40 GMT
+Server: Apache/2.4.37 (Win64) PHP/7.2.14
+Content-Length: 302
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL /service/v2/rest.php was not found on this server.</p>
+<hr>
+<address>Apache/2.4.37 (Win64) PHP/7.2.14 Server at localhost Port 80</address>
+</body></html>
+'
+setting headers
+sending body
+done
+client headers:array (
+  'Host' => '127.0.0.1',
+  'Connection' => 'keep-alive',
+  'Content-Length' => '63',
+  'Origin' => 'http://127.0.0.1',
+  'X-Requested-With' => 'XMLHttpRequest',
+  'User-Agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'Content-Type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'Accept' => '*/*',
+  'Referer' => 'http://127.0.0.1/suitecrm/service/example/example.html',
+  'Accept-Encoding' => 'gzip, deflate, br',
+  'Accept-Language' => 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7',
+  'Cookie' => 'sugar_user_theme=SuiteP; EmailGridWidths=0=10&1=10&2=150&3=250&4=175&5=125; Accounts_divs=Accounts_contacts_v%3Dtrue%23undefined%3D%23Accounts_history_v%3Dtrue%23Accounts_activities_v%3Dtrue%23Accounts_accounts_v%3Dtrue%23Accounts_account_aos_contracts_v%3Dfalse%23Accounts_cases_v%3Dtrue%23Accounts_documents_v%3Dtrue%23Accounts_leads_v%3Dtrue%23Accounts_campaigns_v%3Dtrue%23Accounts_opportunities_v%3Dtrue%23; tut1_tut1_divs=tut1_tut1_tut1_tut1_contacts_1_v%3Dtrue%23undefined%3D%23; Contacts_divs=Contacts_securitygroups_v%3Dtrue%23undefined%3D%23Contacts_contact_aos_contracts_v%3Dtrue%23Contacts_bugs_v%3Dtrue%23Contacts_documents_v%3Dtrue%23Contacts_activities_v%3Dtrue%23Contacts_contacts_v%3Dfalse%23; ck_login_id_20=1; ck_login_language_20=en_us; joomla_remember_me_95d1b6fd9be1e421cf27f15322a0864a=JfqCNIOdFJ4e5Y6e.AH0REn1IayKiZnxpKqK3; PPA_ID=691d2lrstc01f2obqd3a4fito0; webfx-tree-cookie-persistence=wfxt-18+wfxt-16+wfxt-14+wfxt-4+wfxt-6+wfxt-8+wfxt-10+wfxt-12+wfxt-42+wfxt-30; PHPSESSID=1gs6h3lp5p1ok3medavidgv8ti',
+)
+starting curl request
+method=md5&input_type=json&response_type=json&rest_data="admin"
+finished curl request
+response:'HTTP/1.1 404 Not Found
+Date: Tue, 19 Mar 2019 14:26:40 GMT
+Server: Apache/2.4.37 (Win64) PHP/7.2.14
+Content-Length: 302
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL /service/v2/rest.php was not found on this server.</p>
+<hr>
+<address>Apache/2.4.37 (Win64) PHP/7.2.14 Server at localhost Port 80</address>
+</body></html>
+'
+setting headers
+sending body
+done
+client headers:array (
+  'Host' => '127.0.0.1',
+  'Connection' => 'keep-alive',
+  'Content-Length' => '63',
+  'Origin' => 'http://127.0.0.1',
+  'X-Requested-With' => 'XMLHttpRequest',
+  'User-Agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'Content-Type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'Accept' => '*/*',
+  'Referer' => 'http://127.0.0.1/suitecrm/service/example/example.html',
+  'Accept-Encoding' => 'gzip, deflate, br',
+  'Accept-Language' => 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7',
+  'Cookie' => 'sugar_user_theme=SuiteP; EmailGridWidths=0=10&1=10&2=150&3=250&4=175&5=125; Accounts_divs=Accounts_contacts_v%3Dtrue%23undefined%3D%23Accounts_history_v%3Dtrue%23Accounts_activities_v%3Dtrue%23Accounts_accounts_v%3Dtrue%23Accounts_account_aos_contracts_v%3Dfalse%23Accounts_cases_v%3Dtrue%23Accounts_documents_v%3Dtrue%23Accounts_leads_v%3Dtrue%23Accounts_campaigns_v%3Dtrue%23Accounts_opportunities_v%3Dtrue%23; tut1_tut1_divs=tut1_tut1_tut1_tut1_contacts_1_v%3Dtrue%23undefined%3D%23; Contacts_divs=Contacts_securitygroups_v%3Dtrue%23undefined%3D%23Contacts_contact_aos_contracts_v%3Dtrue%23Contacts_bugs_v%3Dtrue%23Contacts_documents_v%3Dtrue%23Contacts_activities_v%3Dtrue%23Contacts_contacts_v%3Dfalse%23; ck_login_id_20=1; ck_login_language_20=en_us; joomla_remember_me_95d1b6fd9be1e421cf27f15322a0864a=JfqCNIOdFJ4e5Y6e.AH0REn1IayKiZnxpKqK3; PPA_ID=691d2lrstc01f2obqd3a4fito0; webfx-tree-cookie-persistence=wfxt-18+wfxt-16+wfxt-14+wfxt-4+wfxt-6+wfxt-8+wfxt-10+wfxt-12+wfxt-42+wfxt-30; PHPSESSID=1gs6h3lp5p1ok3medavidgv8ti',
+)
+starting curl request
+method=md5&input_type=json&response_type=json&rest_data="admin"
+finished curl request
+response:'HTTP/1.1 404 Not Found
+Date: Tue, 19 Mar 2019 14:26:40 GMT
+Server: Apache/2.4.37 (Win64) PHP/7.2.14
+Content-Length: 302
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL /service/v2/rest.php was not found on this server.</p>
+<hr>
+<address>Apache/2.4.37 (Win64) PHP/7.2.14 Server at localhost Port 80</address>
+</body></html>
+'
+setting headers
+sending body
+done
+client headers:array (
+  'Host' => '127.0.0.1',
+  'Connection' => 'keep-alive',
+  'Content-Length' => '63',
+  'Origin' => 'http://127.0.0.1',
+  'X-Requested-With' => 'XMLHttpRequest',
+  'User-Agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'Content-Type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'Accept' => '*/*',
+  'Referer' => 'http://127.0.0.1/suitecrm/service/example/example.html',
+  'Accept-Encoding' => 'gzip, deflate, br',
+  'Accept-Language' => 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7',
+  'Cookie' => 'sugar_user_theme=SuiteP; EmailGridWidths=0=10&1=10&2=150&3=250&4=175&5=125; Accounts_divs=Accounts_contacts_v%3Dtrue%23undefined%3D%23Accounts_history_v%3Dtrue%23Accounts_activities_v%3Dtrue%23Accounts_accounts_v%3Dtrue%23Accounts_account_aos_contracts_v%3Dfalse%23Accounts_cases_v%3Dtrue%23Accounts_documents_v%3Dtrue%23Accounts_leads_v%3Dtrue%23Accounts_campaigns_v%3Dtrue%23Accounts_opportunities_v%3Dtrue%23; tut1_tut1_divs=tut1_tut1_tut1_tut1_contacts_1_v%3Dtrue%23undefined%3D%23; Contacts_divs=Contacts_securitygroups_v%3Dtrue%23undefined%3D%23Contacts_contact_aos_contracts_v%3Dtrue%23Contacts_bugs_v%3Dtrue%23Contacts_documents_v%3Dtrue%23Contacts_activities_v%3Dtrue%23Contacts_contacts_v%3Dfalse%23; ck_login_id_20=1; ck_login_language_20=en_us; joomla_remember_me_95d1b6fd9be1e421cf27f15322a0864a=JfqCNIOdFJ4e5Y6e.AH0REn1IayKiZnxpKqK3; PPA_ID=691d2lrstc01f2obqd3a4fito0; webfx-tree-cookie-persistence=wfxt-18+wfxt-16+wfxt-14+wfxt-4+wfxt-6+wfxt-8+wfxt-10+wfxt-12+wfxt-42+wfxt-30; PHPSESSID=1gs6h3lp5p1ok3medavidgv8ti',
+)
+starting curl request
+method=md5&input_type=json&response_type=json&rest_data="admin"
+finished curl request
+response:'HTTP/1.1 404 Not Found
+Date: Tue, 19 Mar 2019 14:26:40 GMT
+Server: Apache/2.4.37 (Win64) PHP/7.2.14
+Content-Length: 302
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL /service/v2/rest.php was not found on this server.</p>
+<hr>
+<address>Apache/2.4.37 (Win64) PHP/7.2.14 Server at localhost Port 80</address>
+</body></html>
+'
+setting headers
+sending body
+done
+client headers:array (
+  'Host' => '127.0.0.1',
+  'Connection' => 'keep-alive',
+  'Content-Length' => '63',
+  'Origin' => 'http://127.0.0.1',
+  'X-Requested-With' => 'XMLHttpRequest',
+  'User-Agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'Content-Type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'Accept' => '*/*',
+  'Referer' => 'http://127.0.0.1/suitecrm/service/example/example.html',
+  'Accept-Encoding' => 'gzip, deflate, br',
+  'Accept-Language' => 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7',
+  'Cookie' => 'sugar_user_theme=SuiteP; EmailGridWidths=0=10&1=10&2=150&3=250&4=175&5=125; Accounts_divs=Accounts_contacts_v%3Dtrue%23undefined%3D%23Accounts_history_v%3Dtrue%23Accounts_activities_v%3Dtrue%23Accounts_accounts_v%3Dtrue%23Accounts_account_aos_contracts_v%3Dfalse%23Accounts_cases_v%3Dtrue%23Accounts_documents_v%3Dtrue%23Accounts_leads_v%3Dtrue%23Accounts_campaigns_v%3Dtrue%23Accounts_opportunities_v%3Dtrue%23; tut1_tut1_divs=tut1_tut1_tut1_tut1_contacts_1_v%3Dtrue%23undefined%3D%23; Contacts_divs=Contacts_securitygroups_v%3Dtrue%23undefined%3D%23Contacts_contact_aos_contracts_v%3Dtrue%23Contacts_bugs_v%3Dtrue%23Contacts_documents_v%3Dtrue%23Contacts_activities_v%3Dtrue%23Contacts_contacts_v%3Dfalse%23; ck_login_id_20=1; ck_login_language_20=en_us; joomla_remember_me_95d1b6fd9be1e421cf27f15322a0864a=JfqCNIOdFJ4e5Y6e.AH0REn1IayKiZnxpKqK3; PPA_ID=691d2lrstc01f2obqd3a4fito0; webfx-tree-cookie-persistence=wfxt-18+wfxt-16+wfxt-14+wfxt-4+wfxt-6+wfxt-8+wfxt-10+wfxt-12+wfxt-42+wfxt-30; PHPSESSID=1gs6h3lp5p1ok3medavidgv8ti',
+)
+starting curl request
+method=md5&input_type=json&response_type=json&rest_data="admin"
+finished curl request
+response:'HTTP/1.1 404 Not Found
+Date: Tue, 19 Mar 2019 14:26:41 GMT
+Server: Apache/2.4.37 (Win64) PHP/7.2.14
+Content-Length: 302
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL /service/v2/rest.php was not found on this server.</p>
+<hr>
+<address>Apache/2.4.37 (Win64) PHP/7.2.14 Server at localhost Port 80</address>
+</body></html>
+'
+setting headers
+sending body
+done
+client headers:array (
+  'Host' => '127.0.0.1',
+  'Connection' => 'keep-alive',
+  'Content-Length' => '63',
+  'Origin' => 'http://127.0.0.1',
+  'X-Requested-With' => 'XMLHttpRequest',
+  'User-Agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'Content-Type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'Accept' => '*/*',
+  'Referer' => 'http://127.0.0.1/suitecrm/service/example/example.html',
+  'Accept-Encoding' => 'gzip, deflate, br',
+  'Accept-Language' => 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7',
+  'Cookie' => 'sugar_user_theme=SuiteP; EmailGridWidths=0=10&1=10&2=150&3=250&4=175&5=125; Accounts_divs=Accounts_contacts_v%3Dtrue%23undefined%3D%23Accounts_history_v%3Dtrue%23Accounts_activities_v%3Dtrue%23Accounts_accounts_v%3Dtrue%23Accounts_account_aos_contracts_v%3Dfalse%23Accounts_cases_v%3Dtrue%23Accounts_documents_v%3Dtrue%23Accounts_leads_v%3Dtrue%23Accounts_campaigns_v%3Dtrue%23Accounts_opportunities_v%3Dtrue%23; tut1_tut1_divs=tut1_tut1_tut1_tut1_contacts_1_v%3Dtrue%23undefined%3D%23; Contacts_divs=Contacts_securitygroups_v%3Dtrue%23undefined%3D%23Contacts_contact_aos_contracts_v%3Dtrue%23Contacts_bugs_v%3Dtrue%23Contacts_documents_v%3Dtrue%23Contacts_activities_v%3Dtrue%23Contacts_contacts_v%3Dfalse%23; ck_login_id_20=1; ck_login_language_20=en_us; joomla_remember_me_95d1b6fd9be1e421cf27f15322a0864a=JfqCNIOdFJ4e5Y6e.AH0REn1IayKiZnxpKqK3; PPA_ID=691d2lrstc01f2obqd3a4fito0; webfx-tree-cookie-persistence=wfxt-18+wfxt-16+wfxt-14+wfxt-4+wfxt-6+wfxt-8+wfxt-10+wfxt-12+wfxt-42+wfxt-30; PHPSESSID=1gs6h3lp5p1ok3medavidgv8ti',
+)
+starting curl request
+method=md5&input_type=json&response_type=json&rest_data="admin"
+finished curl request
+response:'HTTP/1.1 404 Not Found
+Date: Tue, 19 Mar 2019 14:26:41 GMT
+Server: Apache/2.4.37 (Win64) PHP/7.2.14
+Content-Length: 302
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL /service/v2/rest.php was not found on this server.</p>
+<hr>
+<address>Apache/2.4.37 (Win64) PHP/7.2.14 Server at localhost Port 80</address>
+</body></html>
+'
+setting headers
+sending body
+done
+client headers:array (
+  'Host' => '127.0.0.1',
+  'Connection' => 'keep-alive',
+  'Content-Length' => '63',
+  'Origin' => 'http://127.0.0.1',
+  'X-Requested-With' => 'XMLHttpRequest',
+  'User-Agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'Content-Type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'Accept' => '*/*',
+  'Referer' => 'http://127.0.0.1/suitecrm/service/example/example.html',
+  'Accept-Encoding' => 'gzip, deflate, br',
+  'Accept-Language' => 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7',
+  'Cookie' => 'sugar_user_theme=SuiteP; EmailGridWidths=0=10&1=10&2=150&3=250&4=175&5=125; Accounts_divs=Accounts_contacts_v%3Dtrue%23undefined%3D%23Accounts_history_v%3Dtrue%23Accounts_activities_v%3Dtrue%23Accounts_accounts_v%3Dtrue%23Accounts_account_aos_contracts_v%3Dfalse%23Accounts_cases_v%3Dtrue%23Accounts_documents_v%3Dtrue%23Accounts_leads_v%3Dtrue%23Accounts_campaigns_v%3Dtrue%23Accounts_opportunities_v%3Dtrue%23; tut1_tut1_divs=tut1_tut1_tut1_tut1_contacts_1_v%3Dtrue%23undefined%3D%23; Contacts_divs=Contacts_securitygroups_v%3Dtrue%23undefined%3D%23Contacts_contact_aos_contracts_v%3Dtrue%23Contacts_bugs_v%3Dtrue%23Contacts_documents_v%3Dtrue%23Contacts_activities_v%3Dtrue%23Contacts_contacts_v%3Dfalse%23; ck_login_id_20=1; ck_login_language_20=en_us; joomla_remember_me_95d1b6fd9be1e421cf27f15322a0864a=JfqCNIOdFJ4e5Y6e.AH0REn1IayKiZnxpKqK3; PPA_ID=691d2lrstc01f2obqd3a4fito0; webfx-tree-cookie-persistence=wfxt-18+wfxt-16+wfxt-14+wfxt-4+wfxt-6+wfxt-8+wfxt-10+wfxt-12+wfxt-42+wfxt-30; PHPSESSID=1gs6h3lp5p1ok3medavidgv8ti',
+)
+starting curl request
+method=md5&input_type=json&response_type=json&rest_data="admin"
+finished curl request
+response:'HTTP/1.1 404 Not Found
+Date: Tue, 19 Mar 2019 14:26:41 GMT
+Server: Apache/2.4.37 (Win64) PHP/7.2.14
+Content-Length: 302
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL /service/v2/rest.php was not found on this server.</p>
+<hr>
+<address>Apache/2.4.37 (Win64) PHP/7.2.14 Server at localhost Port 80</address>
+</body></html>
+'
+setting headers
+sending body
+done
+client headers:array (
+  'Host' => '127.0.0.1',
+  'Connection' => 'keep-alive',
+  'Content-Length' => '63',
+  'Origin' => 'http://127.0.0.1',
+  'X-Requested-With' => 'XMLHttpRequest',
+  'User-Agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'Content-Type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'Accept' => '*/*',
+  'Referer' => 'http://127.0.0.1/suitecrm/service/example/example.html',
+  'Accept-Encoding' => 'gzip, deflate, br',
+  'Accept-Language' => 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7',
+  'Cookie' => 'sugar_user_theme=SuiteP; EmailGridWidths=0=10&1=10&2=150&3=250&4=175&5=125; Accounts_divs=Accounts_contacts_v%3Dtrue%23undefined%3D%23Accounts_history_v%3Dtrue%23Accounts_activities_v%3Dtrue%23Accounts_accounts_v%3Dtrue%23Accounts_account_aos_contracts_v%3Dfalse%23Accounts_cases_v%3Dtrue%23Accounts_documents_v%3Dtrue%23Accounts_leads_v%3Dtrue%23Accounts_campaigns_v%3Dtrue%23Accounts_opportunities_v%3Dtrue%23; tut1_tut1_divs=tut1_tut1_tut1_tut1_contacts_1_v%3Dtrue%23undefined%3D%23; Contacts_divs=Contacts_securitygroups_v%3Dtrue%23undefined%3D%23Contacts_contact_aos_contracts_v%3Dtrue%23Contacts_bugs_v%3Dtrue%23Contacts_documents_v%3Dtrue%23Contacts_activities_v%3Dtrue%23Contacts_contacts_v%3Dfalse%23; ck_login_id_20=1; ck_login_language_20=en_us; joomla_remember_me_95d1b6fd9be1e421cf27f15322a0864a=JfqCNIOdFJ4e5Y6e.AH0REn1IayKiZnxpKqK3; PPA_ID=691d2lrstc01f2obqd3a4fito0; webfx-tree-cookie-persistence=wfxt-18+wfxt-16+wfxt-14+wfxt-4+wfxt-6+wfxt-8+wfxt-10+wfxt-12+wfxt-42+wfxt-30; PHPSESSID=1gs6h3lp5p1ok3medavidgv8ti',
+)
+starting curl request
+method=md5&input_type=json&response_type=json&rest_data="admin"
+finished curl request
+response:'HTTP/1.1 404 Not Found
+Date: Tue, 19 Mar 2019 14:26:41 GMT
+Server: Apache/2.4.37 (Win64) PHP/7.2.14
+Content-Length: 302
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL /service/v2/rest.php was not found on this server.</p>
+<hr>
+<address>Apache/2.4.37 (Win64) PHP/7.2.14 Server at localhost Port 80</address>
+</body></html>
+'
+setting headers
+sending body
+done
+client headers:array (
+  'Host' => '127.0.0.1',
+  'Connection' => 'keep-alive',
+  'Content-Length' => '63',
+  'Pragma' => 'no-cache',
+  'Cache-Control' => 'no-cache',
+  'Origin' => 'http://127.0.0.1',
+  'X-Requested-With' => 'XMLHttpRequest',
+  'User-Agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'Content-Type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'Accept' => '*/*',
+  'Referer' => 'http://127.0.0.1/suitecrm/service/example/example.html',
+  'Accept-Encoding' => 'gzip, deflate, br',
+  'Accept-Language' => 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7',
+  'Cookie' => 'sugar_user_theme=SuiteP; EmailGridWidths=0=10&1=10&2=150&3=250&4=175&5=125; Accounts_divs=Accounts_contacts_v%3Dtrue%23undefined%3D%23Accounts_history_v%3Dtrue%23Accounts_activities_v%3Dtrue%23Accounts_accounts_v%3Dtrue%23Accounts_account_aos_contracts_v%3Dfalse%23Accounts_cases_v%3Dtrue%23Accounts_documents_v%3Dtrue%23Accounts_leads_v%3Dtrue%23Accounts_campaigns_v%3Dtrue%23Accounts_opportunities_v%3Dtrue%23; tut1_tut1_divs=tut1_tut1_tut1_tut1_contacts_1_v%3Dtrue%23undefined%3D%23; Contacts_divs=Contacts_securitygroups_v%3Dtrue%23undefined%3D%23Contacts_contact_aos_contracts_v%3Dtrue%23Contacts_bugs_v%3Dtrue%23Contacts_documents_v%3Dtrue%23Contacts_activities_v%3Dtrue%23Contacts_contacts_v%3Dfalse%23; ck_login_id_20=1; ck_login_language_20=en_us; joomla_remember_me_95d1b6fd9be1e421cf27f15322a0864a=JfqCNIOdFJ4e5Y6e.AH0REn1IayKiZnxpKqK3; PPA_ID=691d2lrstc01f2obqd3a4fito0; webfx-tree-cookie-persistence=wfxt-18+wfxt-16+wfxt-14+wfxt-4+wfxt-6+wfxt-8+wfxt-10+wfxt-12+wfxt-42+wfxt-30; PHPSESSID=1gs6h3lp5p1ok3medavidgv8ti',
+)
+starting curl request
+method=md5&input_type=json&response_type=json&rest_data="admin"
+finished curl request
+response:'HTTP/1.1 404 Not Found
+Date: Tue, 19 Mar 2019 14:26:45 GMT
+Server: Apache/2.4.37 (Win64) PHP/7.2.14
+Content-Length: 302
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL /service/v2/rest.php was not found on this server.</p>
+<hr>
+<address>Apache/2.4.37 (Win64) PHP/7.2.14 Server at localhost Port 80</address>
+</body></html>
+'
+setting headers
+sending body
+done
+client headers:array (
+  'Host' => '127.0.0.1',
+  'Connection' => 'keep-alive',
+  'Content-Length' => '62',
+  'Pragma' => 'no-cache',
+  'Cache-Control' => 'no-cache',
+  'Origin' => 'http://127.0.0.1',
+  'X-Requested-With' => 'XMLHttpRequest',
+  'User-Agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'Content-Type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'Accept' => '*/*',
+  'Referer' => 'http://127.0.0.1/suitecrm/service/example/example.html',
+  'Accept-Encoding' => 'gzip, deflate, br',
+  'Accept-Language' => 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7',
+  'Cookie' => 'sugar_user_theme=SuiteP; EmailGridWidths=0=10&1=10&2=150&3=250&4=175&5=125; Accounts_divs=Accounts_contacts_v%3Dtrue%23undefined%3D%23Accounts_history_v%3Dtrue%23Accounts_activities_v%3Dtrue%23Accounts_accounts_v%3Dtrue%23Accounts_account_aos_contracts_v%3Dfalse%23Accounts_cases_v%3Dtrue%23Accounts_documents_v%3Dtrue%23Accounts_leads_v%3Dtrue%23Accounts_campaigns_v%3Dtrue%23Accounts_opportunities_v%3Dtrue%23; tut1_tut1_divs=tut1_tut1_tut1_tut1_contacts_1_v%3Dtrue%23undefined%3D%23; Contacts_divs=Contacts_securitygroups_v%3Dtrue%23undefined%3D%23Contacts_contact_aos_contracts_v%3Dtrue%23Contacts_bugs_v%3Dtrue%23Contacts_documents_v%3Dtrue%23Contacts_activities_v%3Dtrue%23Contacts_contacts_v%3Dfalse%23; ck_login_id_20=1; ck_login_language_20=en_us; joomla_remember_me_95d1b6fd9be1e421cf27f15322a0864a=JfqCNIOdFJ4e5Y6e.AH0REn1IayKiZnxpKqK3; PPA_ID=691d2lrstc01f2obqd3a4fito0; webfx-tree-cookie-persistence=wfxt-18+wfxt-16+wfxt-14+wfxt-4+wfxt-6+wfxt-8+wfxt-10+wfxt-12+wfxt-42+wfxt-30; PHPSESSID=1gs6h3lp5p1ok3medavidgv8ti',
+)
+starting curl request
+method=md5&input_type=json&response_type=json&rest_data="will"
+finished curl request
+response:'HTTP/1.1 404 Not Found
+Date: Tue, 19 Mar 2019 14:27:02 GMT
+Server: Apache/2.4.37 (Win64) PHP/7.2.14
+Content-Length: 302
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL /service/v2/rest.php was not found on this server.</p>
+<hr>
+<address>Apache/2.4.37 (Win64) PHP/7.2.14 Server at localhost Port 80</address>
+</body></html>
+'
+setting headers
+sending body
+done
+client headers:array (
+  'Host' => '127.0.0.1',
+  'Connection' => 'keep-alive',
+  'Content-Length' => '63',
+  'Pragma' => 'no-cache',
+  'Cache-Control' => 'no-cache',
+  'Origin' => 'http://127.0.0.1',
+  'X-Requested-With' => 'XMLHttpRequest',
+  'User-Agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'Content-Type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'Accept' => '*/*',
+  'Referer' => 'http://127.0.0.1/suitecrm/service/example/example.html',
+  'Accept-Encoding' => 'gzip, deflate, br',
+  'Accept-Language' => 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7',
+  'Cookie' => 'sugar_user_theme=SuiteP; EmailGridWidths=0=10&1=10&2=150&3=250&4=175&5=125; Accounts_divs=Accounts_contacts_v%3Dtrue%23undefined%3D%23Accounts_history_v%3Dtrue%23Accounts_activities_v%3Dtrue%23Accounts_accounts_v%3Dtrue%23Accounts_account_aos_contracts_v%3Dfalse%23Accounts_cases_v%3Dtrue%23Accounts_documents_v%3Dtrue%23Accounts_leads_v%3Dtrue%23Accounts_campaigns_v%3Dtrue%23Accounts_opportunities_v%3Dtrue%23; tut1_tut1_divs=tut1_tut1_tut1_tut1_contacts_1_v%3Dtrue%23undefined%3D%23; Contacts_divs=Contacts_securitygroups_v%3Dtrue%23undefined%3D%23Contacts_contact_aos_contracts_v%3Dtrue%23Contacts_bugs_v%3Dtrue%23Contacts_documents_v%3Dtrue%23Contacts_activities_v%3Dtrue%23Contacts_contacts_v%3Dfalse%23; ck_login_id_20=1; ck_login_language_20=en_us; joomla_remember_me_95d1b6fd9be1e421cf27f15322a0864a=JfqCNIOdFJ4e5Y6e.AH0REn1IayKiZnxpKqK3; PPA_ID=691d2lrstc01f2obqd3a4fito0; webfx-tree-cookie-persistence=wfxt-18+wfxt-16+wfxt-14+wfxt-4+wfxt-6+wfxt-8+wfxt-10+wfxt-12+wfxt-42+wfxt-30; PHPSESSID=1gs6h3lp5p1ok3medavidgv8ti',
+)
+starting curl request
+method=md5&input_type=json&response_type=json&rest_data="admin"
+finished curl request
+response:'HTTP/1.1 404 Not Found
+Date: Tue, 19 Mar 2019 14:27:12 GMT
+Server: Apache/2.4.37 (Win64) PHP/7.2.14
+Content-Length: 302
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL /service/v2/rest.php was not found on this server.</p>
+<hr>
+<address>Apache/2.4.37 (Win64) PHP/7.2.14 Server at localhost Port 80</address>
+</body></html>
+'
+setting headers
+sending body
+done
+client headers:array (
+  'Host' => '127.0.0.1',
+  'Connection' => 'keep-alive',
+  'Content-Length' => '63',
+  'Pragma' => 'no-cache',
+  'Cache-Control' => 'no-cache',
+  'Origin' => 'http://127.0.0.1',
+  'X-Requested-With' => 'XMLHttpRequest',
+  'User-Agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'Content-Type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'Accept' => '*/*',
+  'Referer' => 'http://127.0.0.1/suitecrm/service/example/example.html',
+  'Accept-Encoding' => 'gzip, deflate, br',
+  'Accept-Language' => 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7',
+  'Cookie' => 'sugar_user_theme=SuiteP; EmailGridWidths=0=10&1=10&2=150&3=250&4=175&5=125; Accounts_divs=Accounts_contacts_v%3Dtrue%23undefined%3D%23Accounts_history_v%3Dtrue%23Accounts_activities_v%3Dtrue%23Accounts_accounts_v%3Dtrue%23Accounts_account_aos_contracts_v%3Dfalse%23Accounts_cases_v%3Dtrue%23Accounts_documents_v%3Dtrue%23Accounts_leads_v%3Dtrue%23Accounts_campaigns_v%3Dtrue%23Accounts_opportunities_v%3Dtrue%23; tut1_tut1_divs=tut1_tut1_tut1_tut1_contacts_1_v%3Dtrue%23undefined%3D%23; Contacts_divs=Contacts_securitygroups_v%3Dtrue%23undefined%3D%23Contacts_contact_aos_contracts_v%3Dtrue%23Contacts_bugs_v%3Dtrue%23Contacts_documents_v%3Dtrue%23Contacts_activities_v%3Dtrue%23Contacts_contacts_v%3Dfalse%23; ck_login_id_20=1; ck_login_language_20=en_us; joomla_remember_me_95d1b6fd9be1e421cf27f15322a0864a=JfqCNIOdFJ4e5Y6e.AH0REn1IayKiZnxpKqK3; PPA_ID=691d2lrstc01f2obqd3a4fito0; webfx-tree-cookie-persistence=wfxt-18+wfxt-16+wfxt-14+wfxt-4+wfxt-6+wfxt-8+wfxt-10+wfxt-12+wfxt-42+wfxt-30; PHPSESSID=1gs6h3lp5p1ok3medavidgv8ti',
+)
+starting curl request
+method=md5&input_type=json&response_type=json&rest_data="admin"
+finished curl request
+response:'HTTP/1.1 404 Not Found
+Date: Tue, 19 Mar 2019 14:27:35 GMT
+Server: Apache/2.4.37 (Win64) PHP/7.2.14
+Content-Length: 302
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL /service/v2/rest.php was not found on this server.</p>
+<hr>
+<address>Apache/2.4.37 (Win64) PHP/7.2.14 Server at localhost Port 80</address>
+</body></html>
+'
+setting headers
+sending body
+done
+client headers:array (
+  'Host' => '127.0.0.1',
+  'Connection' => 'keep-alive',
+  'Content-Length' => '63',
+  'Pragma' => 'no-cache',
+  'Cache-Control' => 'no-cache',
+  'Origin' => 'http://127.0.0.1',
+  'X-Requested-With' => 'XMLHttpRequest',
+  'User-Agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'Content-Type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'Accept' => '*/*',
+  'Referer' => 'http://127.0.0.1/suitecrm/service/example/example.html',
+  'Accept-Encoding' => 'gzip, deflate, br',
+  'Accept-Language' => 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7',
+  'Cookie' => 'sugar_user_theme=SuiteP; EmailGridWidths=0=10&1=10&2=150&3=250&4=175&5=125; Accounts_divs=Accounts_contacts_v%3Dtrue%23undefined%3D%23Accounts_history_v%3Dtrue%23Accounts_activities_v%3Dtrue%23Accounts_accounts_v%3Dtrue%23Accounts_account_aos_contracts_v%3Dfalse%23Accounts_cases_v%3Dtrue%23Accounts_documents_v%3Dtrue%23Accounts_leads_v%3Dtrue%23Accounts_campaigns_v%3Dtrue%23Accounts_opportunities_v%3Dtrue%23; tut1_tut1_divs=tut1_tut1_tut1_tut1_contacts_1_v%3Dtrue%23undefined%3D%23; Contacts_divs=Contacts_securitygroups_v%3Dtrue%23undefined%3D%23Contacts_contact_aos_contracts_v%3Dtrue%23Contacts_bugs_v%3Dtrue%23Contacts_documents_v%3Dtrue%23Contacts_activities_v%3Dtrue%23Contacts_contacts_v%3Dfalse%23; ck_login_id_20=1; ck_login_language_20=en_us; joomla_remember_me_95d1b6fd9be1e421cf27f15322a0864a=JfqCNIOdFJ4e5Y6e.AH0REn1IayKiZnxpKqK3; PPA_ID=691d2lrstc01f2obqd3a4fito0; webfx-tree-cookie-persistence=wfxt-18+wfxt-16+wfxt-14+wfxt-4+wfxt-6+wfxt-8+wfxt-10+wfxt-12+wfxt-42+wfxt-30; PHPSESSID=1gs6h3lp5p1ok3medavidgv8ti',
+)
+starting curl request
+method=md5&input_type=json&response_type=json&rest_data="admin"
+finished curl request
+response:'HTTP/1.1 404 Not Found
+Date: Tue, 19 Mar 2019 14:27:36 GMT
+Server: Apache/2.4.37 (Win64) PHP/7.2.14
+Content-Length: 302
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL /service/v2/rest.php was not found on this server.</p>
+<hr>
+<address>Apache/2.4.37 (Win64) PHP/7.2.14 Server at localhost Port 80</address>
+</body></html>
+'
+setting headers
+sending body
+done
